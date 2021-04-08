@@ -1,0 +1,14 @@
+{
+    "name": "root/podcast-to-text",
+    "authors": [
+        {
+            "name": "Linh Duong",
+            "email": "linhduong.pscd@gmail.com"
+        }
+    ],
+    "require": {
+        "podcastcrawler/podcastcrawler": "^1.1",
+        "jwilsson/spotify-web-api-php": "^4.2",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
