@@ -16,11 +16,13 @@
 
 
 # Install & Run Project:
-+ cd to project: 
-> cd /path-to-project/podcast-to-text
++ Clone project:
+> git clone https://github.com/hphuoclam/php-get-podcast-audio-url.git
++ Cd to project: 
+> cd /php-get-podcast-audio-url
 + copy .env.example to .env: 
 > sudo cp .env.example .env
-+ install composer: 
++ Install composer: 
 > composer install
 + package https://github.com/podcastcrawler/podcastcrawler required *php-tidy* : (https://stackoverflow.com/questions/58801692/how-to-install-enable-tidy-extension-in-php-7-2-on-ubuntu-14-04)
 > sudo apt update
